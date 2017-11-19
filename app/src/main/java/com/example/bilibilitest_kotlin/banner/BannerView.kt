@@ -108,7 +108,7 @@ class BannerView @JvmOverloads constructor(context: Context, attrs:AttributeSet?
                     .load(bannerList[i].img)
                     .centerCrop()
                     .diskCacheStrategy(DiskCacheStrategy.ALL)
-                    .placeholder(R.drawable.bili_default_image_tv)
+                    .placeholder(R.mipmap.ic_launcher_round)
                     .dontAnimate()
                     .into(mImageView)
             imageViewList.add(mImageView)
